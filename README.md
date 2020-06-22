@@ -3,7 +3,7 @@
 #### This is a simple demo to dynamically create AWS credentials using Vault, renew them, and revoke them.  The `lease` and `lease_max` values are set to `1m` to quickly show how AWS access can be ephemeral.  You can modify these values in the `1_aws_dynamic_creds.sh` script to accommodate your demo.
 
 ## Requirements: 
-A. HashiCorp's Vault binary installed on your machine and having the `PATH` configured.
+A. HashiCorp's Vault binary installed on your machine and having the `PATH` configured.<br>
 B. You will need both `AWS_ACCeSS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` set in your environment variables.  This is what Vault will use to interact with AWS.
 
 ## Instructions: 
